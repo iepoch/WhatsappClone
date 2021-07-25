@@ -11,9 +11,10 @@ import { Fontisto } from "@expo/vector-icons";
 
 import Colors from "../constants/Colors";
 import useColorScheme from "../hooks/useColorScheme";
-import TabOneScreen from "../screens/TabOneScreen";
+import TabOneScreen from "../screens/ChatsScreen";
 import TabTwoScreen from "../screens/TabTwoScreen";
 import { MainTabParamList, TabOneParamList, TabTwoParamList } from "../types";
+import ChatScreen from "../screens/ChatsScreen";
 
 const MainTab = createMaterialTopTabNavigator<MainTabParamList>();
 
@@ -24,12 +25,12 @@ export default function MainTabNavigator() {
     <MainTab.Navigator
       initialRouteName="Chats"
       tabBarOptions={{
-        activeTintColor: Colors[colorScheme].text,
+        activeTintColor: Colors[colorScheme].background,
         style: {
           backgroundColor: Colors[colorScheme].tint,
         },
         indicatorStyle: {
-          backgroundColor: Colors[colorScheme].text,
+          backgroundColor: Colors[colorScheme].background,
           height: 4,
         },
         labelStyle: {
@@ -48,7 +49,7 @@ export default function MainTabNavigator() {
           tabBarLabel: () => null,
         }}
       />
-      <MainTab.Screen name="Chats" component={TabTwoNavigator} />
+      <MainTab.Screen name="Chats" component={ChatScreen} />
       <MainTab.Screen name="Status" component={TabTwoNavigator} />
       <MainTab.Screen name="Calls" component={TabTwoNavigator} />
     </MainTab.Navigator>
