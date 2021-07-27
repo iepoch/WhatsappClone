@@ -40,7 +40,10 @@ You might want to look into `config.json` to make change the port you want to us
 ## Usage
 After you clone this repo to your desktop, go to its root directory and run `npm install` or `yarn` to install its dependencies.
 
-Once the dependencies are installed, you can run  `npm start` or `yarn start`to start the application. You will then be able to access it at localhost:3000
+Once the dependencies are installed, you can run  `npm start` or `yarn start`to start the application. 
+You will then be able to access it at localhost:19002 will open Expo's Metro bundler
+Make sure you have Expo-Cli installed globally by `npm install --global expo-cli` or `yarn global add expo-cli` 
+
 
 ---
 
