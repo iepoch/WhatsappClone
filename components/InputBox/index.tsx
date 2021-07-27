@@ -40,7 +40,7 @@ function InputBox() {
         <TextInput
           placeholder={"Type a message"}
           style={styles.textInput}
-          multiline
+          multiline={true}
           onChangeText={setMessage}
         />
         <Entypo name="attachment" size={24} color="grey" style={styles.icons} />

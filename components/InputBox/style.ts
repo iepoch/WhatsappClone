@@ -1,4 +1,4 @@
-import { StyleSheet } from "react-native";
+import { Keyboard, StyleSheet } from "react-native";
 import Colors from "../../constants/Colors";
 
 const styles = StyleSheet.create({
@@ -15,6 +15,7 @@ const styles = StyleSheet.create({
     marginRight: 10,
     flex: 1,
     alignItems: "center",
+    justifyContent: "center",
   },
   textInput: {
     flex: 1,
