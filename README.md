@@ -1,5 +1,5 @@
 # WhatsappClone
-React Native Build with GraphQL , AWS, Expo Cli
+React Native Build with GraphQL , AWS, Expo Cli, and Typescript
 WhatsappClone
 ============
 
