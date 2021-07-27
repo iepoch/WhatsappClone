@@ -4,7 +4,7 @@ WhatsappClone
 ============
 
 
-This is a WhatsappClone application powered by React-Native, Epo-Cli, GraphQL and AWS that provides the main functions you'd expect from a chat, such as emojis, private messages, an admin system, etc.
+This is a WhatsappClone application powered by React-Native, Epo-Cli, GraphQL and AWS that provides the main functions you'd expect from a chat, such as emojis, and private messages etc.
 
 ---
 ## Buy me a coffee
@@ -45,6 +45,6 @@ Once the dependencies are installed, you can run  `npm start` or `yarn start`to 
 ---
 
 ## License
->You can check out the full license [here](https://github.com/iepoch/WhatsappClone/blob/master/LICENSE)
+>You can check out the full license [here](https://github.com/iepoch/WhatsappClone/blob/main/LICENSE)
 
 This project is licensed under the terms of the **MIT** license.
